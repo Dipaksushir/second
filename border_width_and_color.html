@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        p,h1{
+            margin-left: 20px;
+            margin-right: 20px;
+            
+        }
+        p#ph{
+            border: dashed;
+            border-color: yellow;
+
+            /* border width with 1 value  */
+            /* 1opx for all 4sides  */
+            /* border-width: 8px; */
+             
+             /* border width with 2 values  */
+            /* 10px for top and 5px for bottom , 5px for left and right 
+             */
+             /* border-width: 10px 5px; */
+
+               /* border width with 3 values  */
+            /* 20px for top  , 5px for right ,12px for bottom
+             */
+             /* border-width: 20px 5px 12px; */
+
+
+
+            /* border width with 4 values 
+            10px=> top 5px=> right 7px=>bottom 3px=>left */
+
+            border-width: 10px 5px 7px 3px;
+           
+
+        }
+    </style>
+</head>
+<body style="border: 3px solid cadetblue;">
+    <p style="border: solid;border-color: blue; border-width: medium;">This is paraghrapg</p>
+    <p style="border: solid;border-radius: 5px;border-color: red;">Rounded Border</p>
+    <p style="border: dashed;border-color: chocolate; border-width: thick;">This is paraghrapg</p>
+    <p style="border: double;border-color: crimson;border-width: thin;">This is paraghrapg</p>
+
+    <p id="ph">This is paragraph</p>
+
+    <p style="border: solid  ; border-color:pink; border-width: 3px;">This is paragraph</p>
+    
+    <!-- border shorthand 
+    syntax: "border : width boredr style border color" -->
+    <p style="border: solid  ; border-color:aqua; border-width: 3px;">This is paragraph</p>
+    <p style="border:3px solid aqua;">This is paragraph</p>
+</body>
+</html>
